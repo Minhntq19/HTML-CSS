@@ -1,0 +1,23 @@
+h1 > p{
+    text-align: right;
+    color: Red;
+    text-indent: 10px;
+    text-transform: capitalize;
+    vertical-align: top;
+}
+h2{
+    color: deeppink;
+    text-decoration: underline;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-transform: none;
+    text-align: left;
+}
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    background-size: 2000px;
+    text-align: justify;
+}
