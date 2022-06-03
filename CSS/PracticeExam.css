@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #3a945b;
+}
+body{
+    background-color: white;
+    display: block;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 100px;
+}
+button{
+    color: black;
+    background-color: white;
+    display: block;
+    float: left;
+    width: 50%;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+}
+button:hover{
+    color: white;
+    background-color: #cccccc;
+}
+.login-block{
+    display: block;
+    float: left;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.login-block input{
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+.login-block p {
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.confirm{
+    background-color: #3a945b;
+    color: white;
+    display: block;
+    float: right;
+    width: 33.33%;
+}
+.login-confirm a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+}
+.contact .contact-fb{
+    width: 100%;
+}
+.contact-fb i{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: blue;
+    color: white;
+}
+.contact-fb p {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: blue;
+    color: white;
+}
+.contact-gg i{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: red;
+    color: white;
+}
+.contact-gg p {
+    display: inline-block;
+    padding: 12px 30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
